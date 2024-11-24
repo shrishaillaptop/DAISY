@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+    </div>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/Daisy1.png" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/Daisy2.png" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/Daisy3.png" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/Daisy4.png" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/Daisy5.png" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/Daisy6.png" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/Daisy7.png" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/Daisy8.png" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/Daisy9.png" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/Daisy10.png" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="DAISY">
+                DAISY
+            </h1>
+            <div class="author">
+                <h2>OnlyFan Creator</h2>
+                <a href="https://onlyfans.com/ladyydaisy" style="text-decoration: none ; color: black;"><p ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-onlyfans">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M8.5 6a6.5 6.5 0 1 0 0 13a6.5 6.5 0 0 0 0 -13z" />
+                    <path d="M8.5 15a2.5 2.5 0 1 1 0 -5a2.5 2.5 0 0 1 0 5z" />
+                    <path d="M14 16c2.5 0 6.42 -1.467 7 -4h-6c3 -1 6.44 -3.533 7 -6h-4c-3.03 0 -3.764 -.196 -5 1.5" />
+                  </svg>
+                  </p>
+                  </a>
+                <p>
+                    Subscribe to my page to watch many interesting videos, photos and interact with me
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
